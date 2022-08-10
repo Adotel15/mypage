@@ -1,0 +1,27 @@
+.contenedor {
+    margin: 0 15rem 15rem 15rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.titulo{
+    color: white;
+    font-size: 2rem;
+}
+
+.titulo span{
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.texto{
+    color: gray;
+    font-size: 1.rem;
+    font-weight: 100;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+}

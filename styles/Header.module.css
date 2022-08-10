@@ -1,4 +1,24 @@
 .contenido{
-    background-color: gold;
     padding: 2rem;
+    color: white;
+}
+
+.cabeza {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.navegacion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.navegacion a{
+    font-size: 0.8rem;
+}
+
+.firma {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
 }

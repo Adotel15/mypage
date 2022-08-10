@@ -1,4 +1,30 @@
 .contenido{
-    background-color: gold;
     padding: 2rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.datos{
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    font-size: .8rem;
+}
+
+.links p:first-of-type{
+    text-align: right;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+
+.links p{
+    padding-top: 3rem;
 }
