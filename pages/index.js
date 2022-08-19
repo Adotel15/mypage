@@ -22,7 +22,7 @@ export default function Home() {
 
         <CV />
 
-        <h1 className = {Styles.titulo}>Personal Portfolio</h1>
+        <h1 className = {Styles.titulo}>PERSONAL PORTFOLIO</h1>
         <Proyectos />
 
       </div>

@@ -13,8 +13,8 @@ const Proyectos = () => {
             <div className = {Styles.etiqueta}>
                 <h1>{paginas.nombre}</h1>
                 <div className = {Styles.enlaces}> 
-                    <a href = {paginas.url} target = "_blank" > <FaExternalLinkAlt /> </a>
-                    <a href = {paginas.codigo} target= "_blank"> <FiGithub /> </a>
+                    <a href = {paginas.url} target = "_blank" > <FaExternalLinkAlt /> View App </a>
+                    <a href = {paginas.codigo} target= "_blank"> <FiGithub /> Check Code </a>
                 </div>
             </div>
         ))

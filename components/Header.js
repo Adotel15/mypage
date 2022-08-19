@@ -25,9 +25,19 @@ const Header = () => {
                   About Me</a>
               </p>
               <p>
+                <a onClick={ () => {
+                    window.scrollTo({
+                      top: 1510,
+                      behavior: 'smooth',
+                    })
+                  }
+                }>
+                  Skills</a>
+              </p>
+              <p>
               <a onClick={ () => {
                     window.scrollTo({
-                      top: 1850,
+                      top: 2150,
                       behavior: 'smooth',
                     })
                   }

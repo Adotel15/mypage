@@ -4,8 +4,9 @@
 
 .titulo{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color:white;
     font-family: Verdana;
+    padding: 2rem;
 }

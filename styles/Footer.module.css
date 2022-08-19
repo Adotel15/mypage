@@ -1,4 +1,8 @@
 .contenido{
+    background-color:hsla(0,0%,0%,1);
+    background-image:
+    radial-gradient(at 0% 57%, hsla(240,0%,100%,0.32) 0px, transparent 50%),
+    radial-gradient(at 100% 57%, hsla(56,100%,50%,0.4) 0px, transparent 50%);
     padding: 2rem;
     color: white;
     display: grid;
@@ -9,7 +13,7 @@
     font-size: 1rem;
     display: grid;
     grid-template-columns: 250px 300px;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-left: 2rem;
 }
 
@@ -22,11 +26,11 @@
 
 .links p:first-of-type{
     text-align: right;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-right: 2rem;
 }
 
 .links p{
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-right: 5rem;
 }

@@ -1,20 +1,23 @@
 .contenedor{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
+
 
 
 .etiqueta {
     border: 1px solid gray;
     border-radius: 12px;
     padding: 1rem;
-    margin: 5px;
+    margin: 1rem 2rem 1rem 2rem;
     color: white;
     background-color:hsla(45,0%,0%,1);
     background-image:
         radial-gradient(at 50% 38%, hsla(0,0%,20%,1) 0px, transparent 50%),
         radial-gradient(at 11% 100%, hsla(18,0%,26%,1) 0px, transparent 50%),
         radial-gradient(at 86% 100%, hsla(55,0%,25%,1) 0px, transparent 50%);
+
+    cursor: pointer;
 }
 
 

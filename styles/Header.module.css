@@ -1,17 +1,22 @@
 .contenido{
     padding: 2rem;
     color: white;
+    background-color:hsla(0,0%,0%,1);
+    background-image:
+    radial-gradient(at 0% 57%, hsla(240,0%,100%,0.32) 0px, transparent 50%),
+    radial-gradient(at 100% 57%, hsla(56,100%,50%,0.4) 0px, transparent 50%);
 }
 
 .cabeza {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
 }
 
 .navegacion {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
+    margin-top: 2.5rem;
 }
 
 .navegacion a{
@@ -24,6 +29,7 @@
 }
 
 .firma {
+    padding-top: 0.5rem;
     font-family: 'Great Vibes', cursive;
     font-size: 2rem;
 }

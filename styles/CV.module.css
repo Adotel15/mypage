@@ -1,8 +1,37 @@
 
+.contenedor {
+    border-bottom: 2px gray solid;
+    margin: 0rem 10rem 0rem 10rem;
+    padding: 1rem;
+}
+
 .titulo {
     text-align: center;
-    font-size: 4rem;
-    font-weight: 800;
-
-    margin: 10rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0rem 10rem 0rem 10rem;
+    font-family: Verdana;
 }
+
+.skills {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 8rem 0rem 8rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.skills div {
+    padding: 3rem;
+    border-radius: 12px;
+    border: 1px solid rgb(249, 240, 188);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.skills div:hover {
+    background-color: darkslateblue;
+}
+
