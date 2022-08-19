@@ -28,6 +28,17 @@
 
 .enlaces {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 1.1rem;
+    font-size: 1.5rem;
+}
+
+.enlaces a:first-of-type{
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.enlaces a{
+    margin-right: 2rem;
+    text-align: right;
 }

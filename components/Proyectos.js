@@ -1,6 +1,8 @@
 
 import { PAGES } from "../helpers/Paginas"
 import Styles from "../styles/Proyectos.module.css"
+import { FiGithub } from 'react-icons/fi'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const Proyectos = () => {
 
@@ -11,8 +13,8 @@ const Proyectos = () => {
             <div className = {Styles.etiqueta}>
                 <h1>{paginas.nombre}</h1>
                 <div className = {Styles.enlaces}> 
-                    <a href = {paginas.url} target = "_blank" >Access Page</a>
-                    <a href = {paginas.codigo} target= "_blank">GitHub Code</a>
+                    <a href = {paginas.url} target = "_blank" > <FaExternalLinkAlt /> </a>
+                    <a href = {paginas.codigo} target= "_blank"> <FiGithub /> </a>
                 </div>
             </div>
         ))
