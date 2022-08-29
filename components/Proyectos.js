@@ -3,6 +3,7 @@ import { PAGES } from "../helpers/Paginas"
 import Styles from "../styles/Proyectos.module.css"
 import { FiGithub } from 'react-icons/fi'
 import { FaExternalLinkAlt } from 'react-icons/fa'
+import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 
 const Proyectos = () => {
 

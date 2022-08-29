@@ -1,10 +1,25 @@
 
+@keyframes entrada{
+
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
 .contenedor {
     /* margin : arriba, derecha, abajo, izquierda*/
     margin: 0rem 5rem 6rem 5rem;
     padding: 2rem;
     border-bottom: 2px gray white;
+    animation-name: entrada;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+
 }
+
 
 .titulo {
     margin: 1rem 2rem;
