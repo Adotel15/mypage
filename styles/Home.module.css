@@ -1,5 +1,6 @@
 .contenedor{
     margin: 2rem;
+    position: relative;
 }
 
 .titulo{
@@ -9,4 +10,25 @@
     color:white;
     font-family: Verdana;
     padding: 2rem;
+    margin-top: 15rem;
+}
+
+.imagen{
+    position: absolute;
+    opacity: 0.3;
+}
+
+.contacto {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 14rem;
+    margin-left: 4rem;
+    color: gold;
+
+}
+
+.texto {
+    font-size: 1.4rem;
+    margin-left: 4rem;
 }

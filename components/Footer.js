@@ -1,7 +1,8 @@
 
 import React from 'react'
 import Styles from '../styles/Footer.module.css'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import { FiMail } from 'react-icons/fi'
 
 const Footer = () => {
 
@@ -9,8 +10,8 @@ const Footer = () => {
       <footer className = {Styles.contenido}>
 
         <div className = {Styles.datos}>
-          <p>WhatsApp : +34 671 84 52 31</p>
-          <p>Email: adriandotel@gmail.com</p>
+          <p> <FaWhatsapp /> +34 671 84 52 31</p>
+          <p> <FiMail /> adriandotel@gmail.com</p>
         </div>
 
         <div className = {Styles.links}>

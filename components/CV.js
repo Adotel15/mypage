@@ -1,18 +1,19 @@
 
 import Styles from '../styles/CV.module.css'
 import Skills from '../helpers/Skills'
+import { useEffect } from 'react'
 import Image from 'next/image'
+import { Fragment } from 'react'
 
 const CV = () => {
 
-    /*
-    const division = document.querySelector(".div")
-
-    division.addEventListener("click", () => (
-     console.log("Clickado")
-    ))
-    */
-
+   
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            console.log("Tiene que salir")
+        })
+    },[])
+   
     return (
         <div className = {`${Styles.contenedor}`}>
             <h1 className = {Styles.titulo}>
@@ -22,7 +23,9 @@ const CV = () => {
             <div className = {Styles.skills}>
                 {
                     Skills.map( skill => (
-                        <>
+                        <Fragment
+                            key = {skill.id}
+                        >
                             <style jsx>
                                 {`
                                     div:hover{
@@ -33,7 +36,7 @@ const CV = () => {
                                 `}
                                 </style>
                             <div 
-                                key = {skill.id}
+                                
                                 className = {Styles.skill}
                             >
                                 <div>
@@ -50,7 +53,7 @@ const CV = () => {
                                 <p>{skill.texto2}</p>
                                 <p>{skill.texto3}</p>
                             </div>
-                        </>
+                        </Fragment>
                         
                     ))
                 }
