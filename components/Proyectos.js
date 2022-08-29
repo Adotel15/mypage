@@ -10,7 +10,10 @@ const Proyectos = () => {
     <div className = {Styles.contenedor}>
       {
         PAGES.map(paginas => (
-            <div className = {Styles.etiqueta}>
+            <div 
+              className = {Styles.etiqueta}
+              key = {paginas.id}
+            >
                 <h1>{paginas.nombre}</h1>
                 <div className = {Styles.enlaces}> 
                     <a href = {paginas.url} target = "_blank" > <FaExternalLinkAlt /> View App </a>

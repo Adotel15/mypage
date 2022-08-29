@@ -1,15 +1,18 @@
 
 .contenedor {
-    border-bottom: 2px gray solid;
-    margin: 0rem 10rem 0rem 10rem;
-    padding: 1rem;
+    /* margin : arriba, derecha, abajo, izquierda*/
+    margin: 0rem 5rem 6rem 5rem;
+    padding: 2rem;
+    border-bottom: 2px gray white;
 }
 
 .titulo {
+    margin: 1rem 2rem;
+    padding-bottom: 2rem;
     text-align: center;
+
     font-size: 2.5rem;
     font-weight: 700;
-    margin: 0rem 10rem 0rem 10rem;
     font-family: Verdana;
 }
 
@@ -17,21 +20,48 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 8rem 0rem 8rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+
+    margin: 0 1rem;
     text-align: center;
+
+    gap: 1rem;
 }
 
-.skills div {
-    padding: 3rem;
-    border-radius: 12px;
+.skill {
+    padding: 3rem 2rem;
+
+    border-radius: 30px;
     border: 1px solid rgb(249, 240, 188);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    background-color: #111111;
+    
     cursor: pointer;
 }
 
+.skills div h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.skills div p{
+    font-size: 1rem;
+}
+
+/*
+
 .skills div:hover {
-    background-color: darkslateblue;
+    background-color: rgb(180, 180, 133);
+    color: black;
+    transition-duration: 0.3s;
+}
+*/
+
+@media (max-width: 700px){
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        text-align: center;
+    }
 }
 
