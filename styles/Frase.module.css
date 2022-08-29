@@ -1,4 +1,19 @@
 
+@keyframes entrada{
+
+    from { 
+        position: relative;
+        left: -2000px;
+        opacity: 0;
+    }
+    to {
+        position: relative;
+        left: 0px;
+        opacity: 0.8;
+    }
+    
+}
+
 .texto {
     font-family: 'Aboreto', cursive;
     text-align: center;
@@ -15,4 +30,7 @@
 .contenedor {
     margin: 0rem 2rem 15rem 3rem;
     padding: 3rem 4rem 4rem 4rem;
+    animation: entrada;
+    animation-duration: 2s;
+    
 }

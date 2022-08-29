@@ -5,8 +5,16 @@ import Image from 'next/image'
 
 const CV = () => {
 
+    /*
+    const division = document.querySelector(".div")
+
+    division.addEventListener("click", () => (
+     console.log("Clickado")
+    ))
+    */
+
     return (
-        <div className = {Styles.contenedor}>
+        <div className = {`${Styles.contenedor}`}>
             <h1 className = {Styles.titulo}>
                 SKILLS
             </h1>

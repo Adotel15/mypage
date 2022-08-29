@@ -7,8 +7,9 @@ import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 
 const Proyectos = () => {
 
+
   return (
-    <div className = {Styles.contenedor}>
+    <div className = {Styles.contenedor} >
       {
         PAGES.map(paginas => (
             <div 
