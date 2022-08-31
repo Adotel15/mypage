@@ -10,6 +10,7 @@
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 .titulo{
@@ -31,5 +32,9 @@
 .imagen {
     max-width: 100%;
     height: auto;
-    opacity: 0.7;
+    opacity: 0.9;
+}
+
+.contenido {
+    padding-top: 5rem;
 }

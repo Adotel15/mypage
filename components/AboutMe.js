@@ -4,7 +4,7 @@ import Styles from "../styles/AboutMe.module.css"
 const AboutMe = () => {
   return (
     <div className = {Styles.contenedor}>
-        <div>
+        <div className = {Styles.contenido}>
             <div className = {Styles.titulo}>
                 Hello, it's me 
                 <p><span>Adrian.</span></p>
@@ -16,7 +16,7 @@ const AboutMe = () => {
             </p>
         </div>
         <div>
-            <img src = "btc.jpg" alt="WCRU" width="525" height="335" className = {Styles.imagen}></img>
+            <img src = "pagina2.png" alt="WCRU" width="525" height="335" className = {Styles.imagen}></img>
         </div>
     </div>
   )

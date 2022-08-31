@@ -17,7 +17,7 @@ const Header = () => {
               <p>
                 <a onClick={ () => {
                     window.scrollTo({
-                      top: 990,
+                      top: 1200,
                       behavior: 'smooth',
                     })
                   }
@@ -27,7 +27,7 @@ const Header = () => {
               <p>
                 <a onClick={ () => {
                     window.scrollTo({
-                      top: 1880,
+                      top: 2200,
                       behavior: 'smooth',
                     })
                   }
@@ -37,7 +37,7 @@ const Header = () => {
               <p>
               <a onClick={ () => {
                     window.scrollTo({
-                      top: 3290,
+                      top: 3600,
                       behavior: 'smooth',
                     })
                   }
