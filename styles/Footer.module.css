@@ -1,6 +1,5 @@
 .contenido{
     margin-top: -4rem;
-    background-color:hsla(0,0%,0%,1);
     background-image:
     radial-gradient(at 0% 57%, hsla(240,0%,100%,0.32) 0px, transparent 50%),
     radial-gradient(at 100% 57%, hsla(56,100%,50%,0.4) 0px, transparent 50%);
