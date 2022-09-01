@@ -16,7 +16,7 @@ const AboutMe = () => {
             </p>
         </div>
         <div>
-            <img src = "pagina2.png" alt="WCRU" width="525" height="335" className = {Styles.imagen}></img>
+            <img src = "pagina.jpg" alt="Foto mia" width="450" height="300" className = {Styles.imagen}></img>
         </div>
     </div>
   )

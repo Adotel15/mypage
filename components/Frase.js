@@ -15,8 +15,12 @@ const Frase = () => {
 
         <div>
           <h1 className = {Styles.texto}>
-                  Take ideas that add value to people and make them come true through technology
+              "Any sufficiently advanced technology is indistinguishable from magic."
           </h1>
+
+          <p className = {Styles.parrafo}>
+            Arthur C. Clarke
+          </p>
 
         </div>
     </div>

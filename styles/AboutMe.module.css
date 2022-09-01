@@ -6,6 +6,7 @@
     margin-bottom: 20rem;
 
     padding: 1rem 2rem;
+    padding-left: 5rem;
     
     
     display: grid;
@@ -32,9 +33,30 @@
 .imagen {
     max-width: 100%;
     height: auto;
-    opacity: 0.9;
+    opacity: 0.8;
+
+    filter: blur(0.1px);
+    filter: brightness(90%);
+
+    border: 4px solid gold;
+    border-radius: 50%;
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+.imagen:hover {
+
+    border: 4px solid white;
+    transition-duration: 1s;
+    cursor: pointer;
+
+    transform: scale(1.05);
+
 }
 
 .contenido {
-    padding-top: 5rem;
+    padding-bottom: 7rem;
+    padding-right: 4rem;
 }
