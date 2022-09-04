@@ -12,6 +12,7 @@ export default function Home() {
   return (
 
     <>
+    
       <img src = 'Cielo.jpg' height = "800" width = "100%" className = {Styles.imagen}></img>
       
       <Header />
@@ -28,9 +29,6 @@ export default function Home() {
         <Proyectos />
 
       </div>
-
-      <h1 className = {Styles.contacto}>Want to Contact Me?</h1>
-      <p className = {Styles.texto}>Here is my personal info: </p>
 
       <Footer />
     </>

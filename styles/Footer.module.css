@@ -1,37 +1,62 @@
-.contenido{
-    margin-top: -4rem;
+.fondo {
+    
     background-image:
     radial-gradient(at 0% 57%, hsla(240,0%,100%,0.32) 0px, transparent 50%),
     radial-gradient(at 100% 57%, hsla(56,100%,50%,0.4) 0px, transparent 50%);
-    padding: 2rem;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+    margin-bottom: 10rem;
+    
+
 }
 
-.datos{
+.contenido{
+
+    /*
+    background-image:
+    radial-gradient(at 0% 57%, hsla(240,0%,100%,0.32) 0px, transparent 50%),
+    radial-gradient(at 100% 57%, hsla(56,100%,50%,0.4) 0px, transparent 50%);
+    */
+
+    color: white;
+
+    text-align: center;
+}
+
+.contacto {
+
+    text-align: center;
+    font-size: 3.3rem;
+
+    margin-top: 14rem;
     color: gold;
-    font-size: 1.1rem;
-    display: grid;
-    grid-template-columns: 250px 300px;
-    padding-top: 2rem;
-    padding-left: 2rem;
+
+}
+
+.texto {
+
+    text-align: center;
+    font-size: 1.6rem;
+    color: #B8B93C;
+}
+
+
+.datos{
+
+    font-size: 1.2rem;
 }
 
 .links {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    font-size: 1.6rem;
-    text-align: right;
+
+    font-size: 1.2rem;
 }
 
-.links p:first-of-type{
-    text-align: right;
-    padding-top: 1rem;
-    padding-right: 2rem;
-}
 
 .links p{
     padding-top: 1rem;
-    padding-right: 5rem;
+}
+
+@media (max-width: 850px) {
+    .contenido{
+        width: 100%;
+    }
 }

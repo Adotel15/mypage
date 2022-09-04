@@ -2,20 +2,12 @@
 import Styles from '../styles/CV.module.css'
 import Skills from '../helpers/Skills'
 import { useEffect } from 'react'
-import Image from 'next/image'
 import { Fragment } from 'react'
 
 const CV = () => {
 
-   
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            console.log("Tiene que salir")
-        })
-    },[])
-   
     return (
-        <div className = {`${Styles.contenedor}`}>
+        <div className = {Styles.contenedor}>
             <h1 className = {Styles.titulo}>
                 SKILLS
             </h1>

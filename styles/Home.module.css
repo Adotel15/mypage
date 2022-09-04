@@ -16,19 +16,19 @@
 .imagen{
     position: absolute;
     opacity: 0.3;
+    overflow: hidden;
 }
 
-.contacto {
+@media (max-width: 850px) {
 
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 14rem;
-    margin-left: 4rem;
-    color: gold;
+    .contenedor {
 
-}
+        padding: 1rem;
+    }
 
-.texto {
-    font-size: 1.4rem;
-    margin-left: 4rem;
+    .imagen {
+        height: 550px;
+        width: auto;
+        overflow: hidden;
+    }
 }
