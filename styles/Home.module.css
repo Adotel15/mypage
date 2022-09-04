@@ -28,7 +28,6 @@
 
     .imagen {
         height: 550px;
-        width: auto;
         overflow: hidden;
     }
 }
