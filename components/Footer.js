@@ -29,11 +29,11 @@ const Footer = () => {
             
               
             <p>
-              <a href = {"https://www.linkedin.com/in/adrian-dotel-pujols-192200208/"} target = "_blank" > Linkedin <FaLinkedin/> </a>
+              <a href = {"https://www.linkedin.com/in/adrian-dotel-pujols-192200208/"} target = "_blank" rel="noreferrer"> Linkedin <FaLinkedin/> </a>
             </p>
         
             <p>        
-              <a href = {"https://github.com/Adotel15"} target = "_blank"> Github <FaGithub /> </a>
+              <a href = {"https://github.com/Adotel15"} target = "_blank" rel="noreferrer"> Github <FaGithub /> </a>
             </p>
           
           </div>

@@ -15,7 +15,7 @@ const Frase = () => {
 
         <div>
           <h1 className = {Styles.texto}>
-              "Any sufficiently advanced technology is indistinguishable from magic."
+              {"<< Any sufficiently advanced technology is indistinguishable from magic. >>"}
           </h1>
 
           <p className = {Styles.parrafo}>
