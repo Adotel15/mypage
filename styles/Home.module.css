@@ -1,3 +1,9 @@
+
+.pagina{
+    margin: 3px;
+    position: relative;
+}
+
 .contenedor{
     margin: 2rem;
     position: relative;
@@ -16,7 +22,6 @@
 .imagen{
     position: absolute;
     opacity: 0.3;
-    overflow: hidden;
 }
 
 @media (max-width: 850px) {
@@ -27,7 +32,25 @@
     }
 
     .imagen {
-        height: 550px;
-        overflow: hidden;
+        height: 800px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .pagina {
+        
+        margin-right: -10rem;
+    }
+
+    .contenedor {
+
+        margin: 1rem;
+        padding: 0;
+       
+    }
+
+    .imagen {
+        height: 800px;
     }
 }

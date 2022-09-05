@@ -11,8 +11,8 @@ export default function Home() {
 
   return (
 
-    <>
     
+    <div className = {Styles.pagina}>
       <img src = 'Cielo.jpg' height = "800" width = "100%" className = {Styles.imagen}></img>
       
       <Header />
@@ -31,6 +31,7 @@ export default function Home() {
       </div>
 
       <Footer />
-    </>
+    </div>
+  
   )
 }

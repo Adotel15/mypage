@@ -62,6 +62,13 @@
 }
 */
 
+@media (min-width: 2000px) {
+    .contenedor {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+
 @media (min-width: 800px) and (max-width: 1100px){
 
     .contenedor {
