@@ -8,10 +8,9 @@ const Frase = () => {
 
   return (
     <div className = {Styles.contenedor}>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-
-        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet"></link>
+       <link rel="preconnect" href="https://fonts.googleapis.com" />
+       <link rel="preconnect" href="https://fonts.gstatic.com" />
+       <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
 
         <div>
           <h1 className = {Styles.texto}>
