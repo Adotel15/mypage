@@ -20,8 +20,8 @@ const Tarjeta = ({ page }) => {
             <p className = { Styles.tech }> { page.tech } </p>
 
             <div className = { Styles.webs }>
-                <a href = {page.url} className = { Styles.direccion } rel = "" target = "_blank" > <FaExternalLinkAlt/> View Page</a>
-                <a href = {page.codigo} className = { Styles.direccion } rel = "" target = "_blank" > <FiGithub /> Check Code</a>
+                <a href = {page.url} className = { Styles.direccion } rel = "noreferrer"  target = "_blank" > <FaExternalLinkAlt/> View Page</a>
+                <a href = {page.codigo} className = { Styles.direccion } rel = "noreferrer" target = "_blank" > <FiGithub /> Check Code</a>
             </div>
         </div>
     )
