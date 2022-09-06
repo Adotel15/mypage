@@ -16,7 +16,7 @@ export default function Home() {
 
 
       <div className = {Styles.video}>
-        <video id = "backgroundVideo" preload = "true" autoplay = "true" loop = "true" muted = "true">
+        <video id = "backgroundVideo" preload = "true" autoPlay = {true} loop = {true} muted = {true}>
           <source src = "Computadora.mp4" type="video/mp4" />
         </video>
       </div>
