@@ -13,7 +13,13 @@ export default function Home() {
 
     
     <div className = {Styles.pagina}>
-      <img src = 'Cielo.jpg' height = "800" width = "100%" className = {Styles.imagen}></img>
+
+
+      <div className = {Styles.video}>
+        <video id = "backgroundVideo" preload = "true" autoplay = "true" loop = "true" muted = "true">
+          <source src = "Computadora.mp4" type="video/mp4" />
+        </video>
+      </div>
       
       <Header />
 
