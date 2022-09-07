@@ -42,7 +42,7 @@ const Skills =
         texto: "ServerSideProps & StaticProps",
         texto2: "Custom APIs",
         texto3: "Routing",
-        logo: "favicon.ico",
+        logo: "nextjs.png",
         color: "#E18BDE",
         id: "4"
     },
