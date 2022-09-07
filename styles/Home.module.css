@@ -1,47 +1,42 @@
 
-.pagina{
-    margin: 3px;
+.pagina {
     position: relative;
 }
 
 
-.video{
-    max-width: 100%;
+.video {
+    width: 100%;
     height: 800px;
     position: absolute;
     overflow: hidden;
 }
 
-.contenedor{
+.contenedor {
     margin: 2rem;
     position: relative;
 }
 
-.titulo{
-    text-align: center;
+.titulo {
     font-size: 2.5rem;
     font-weight: 700;
-    color:white;
-    font-family: Verdana;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2rem;
     margin-top: 15rem;
+    padding-left: 9rem;
 }
 
-.imagen{
-    position: absolute;
-    opacity: 0.3;
-}
 
 @media (max-width: 850px) {
 
     .contenedor {
-
         padding: 1rem;
     }
 
-    .imagen {
-        height: 800px;
+    .titulo {
+         padding-left: 5rem;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -58,7 +53,27 @@
        
     }
 
-    .imagen {
-        height: 800px;
+}
+
+@media (min-width: 2000px) {
+
+    .pagina {
+        margin: 5rem;
+    }
+
+    .contenedor {
+        padding: 0 8rem 8rem 8rem;
+        margin: 4rem;
+    }
+
+    .video {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo {
+        
+        padding-left: 24rem;
     }
 }

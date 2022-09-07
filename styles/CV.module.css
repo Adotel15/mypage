@@ -9,13 +9,13 @@
 
 
 .titulo {
-    margin: 1rem 2rem;
+    margin: 2rem 2rem;
     padding-bottom: 2rem;
-    text-align: center;
+
 
     font-size: 2.5rem;
     font-weight: 700;
-    font-family: Verdana;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .skills {

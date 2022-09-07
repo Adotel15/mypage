@@ -1,45 +1,89 @@
-.contenido{
+
+.contenido {
+
     position: relative;
     padding: 2rem;
     color: white;
-    background: transparent;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .cabeza {
     display: flex;
     justify-content: space-between;
-}
-
-.navegacion {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    text-align: center;
-    margin-top: 2.5rem;
-}
-
-.navegacion a{
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.navegacion a:hover{
-    color: gold;
+    margin: 0 5rem;
 }
 
 .firma {
+
     padding-top: 0.5rem;
     font-family: 'Great Vibes', cursive;
     font-size: 2rem;
 }
 
-@media (max-width: 800px) {
+.navegacion {
 
-    .contenido{
+    margin-top: 3.2rem;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    gap: 3rem;
+
+    
+    
+}
+
+.navegacion a {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navegacion a:hover{
+
+    border-bottom: 2px solid gold;
+
+    color: gray;
+}
+
+
+@media (max-width: 769px) {
+
+    .contenido {
         margin: 1rem;
         padding: 0.5rem;
     }
+
+    .cabeza {
+        margin: 0;
+    }
+
+    .firma {
+        margin-top: 2rem;
+        margin-right: 4rem;
+        margin-left: 1rem;
+        padding: 2rem 2rem;
+
+        font-size: 0.8rem;
+    }
+
+    .navegacion {
+
+        margin-top: 3.7rem;
+        margin-right: 2rem;
+        gap: 2rem;
+
+    }
+
     .navegacion a {
         font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .navegacion {
+        gap: 0.4rem;
     }
 }

@@ -1,7 +1,5 @@
 
 import Styles from "../styles/Frase.module.css"
-import Image from "next/image"
-import Foto from '../public/Programador1.png'
 
 const Frase = () => {
 

@@ -1,43 +1,42 @@
 
 import Header from '../components/Header.js'
-import Footer from '../components/Footer.js'
-import Proyectos from '../components/Proyectos.js'
-import Styles from '../styles/Home.module.css'
-import AboutMe from '../components/AboutMe.js'
 import Frase from '../components/Frase.js'
+import AboutMe from '../components/AboutMe.js'
 import CV from '../components/CV.js'
+import Proyectos from '../components/Proyectos.js'
+import Footer from '../components/Footer.js'
+
+import Styles from '../styles/Home.module.css'
 
 export default function Home() {
 
-  return (
+    return (
 
-    
-    <div className = {Styles.pagina}>
+      <div className = {Styles.pagina}>
 
-
-      <div className = {Styles.video}>
-        <video id = "backgroundVideo" preload = "true" autoPlay = {true} loop = {true} muted = {true}>
-          <source src = "Computadora.mp4" type="video/mp4" />
-        </video>
-      </div>
-      
-      <Header />
-
-      <div className = {Styles.contenedor}>
-
-        <Frase />
+        <div className = {Styles.video}>
+          <video id = "backgroundVideo" preload = "true" autoPlay = {true} loop = {true} muted = {true}>
+            <source src = "Computadora.mp4" type="video/mp4" />
+          </video>
+        </div>
         
-        <AboutMe />
+        <Header />
 
-        <CV />
+        <div className = {Styles.contenedor}>
 
-        <h1 className = {Styles.titulo}>PERSONAL PORTFOLIO</h1>
-        <Proyectos />
+          <Frase />
+          
+          <AboutMe />
 
+          <CV />
+
+          <h1 className = {Styles.titulo}>PERSONAL PORTFOLIO</h1>
+          <Proyectos />
+
+        </div>
+
+        <Footer />
       </div>
-
-      <Footer />
-    </div>
-  
-  )
+    
+    )
 }

@@ -3,6 +3,10 @@ import Styles from '../styles/Header.module.css'
 
 const Header = () => {
 
+  const handleScroll = movimiento => {
+    window.scrollTo ({ top: movimiento, behavior : 'smooth'})
+  }
+
     return (
       <header className = {Styles.contenido}>
 
@@ -11,47 +15,27 @@ const Header = () => {
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&display=swap" rel="stylesheet"/>
 
           <div className = {Styles.cabeza}>
+
             <p className = {Styles.firma}>Adrian Dotel Pujols</p>
 
             <div className = {Styles.navegacion}>
-              <p>
-                <a onClick={ () => {
-                    window.scrollTo({
-                      top: 1200,
-                      behavior: 'smooth',
-                    })
-                  }
-                }>
-                  About Me</a>
-              </p>
-              <p>
-                <a onClick={ () => {
-                    window.scrollTo({
-                      top: 2200,
-                      behavior: 'smooth',
-                    })
-                  }
-                }>
-                  Skills</a>
-              </p>
-              <p>
-              <a onClick={ () => {
-                    window.scrollTo({
-                      top: 3600,
-                      behavior: 'smooth',
-                    })
-                  }
-                }>Personal Portfolio</a>
-              </p>
-              <p>
-              <a onClick={ () => {
-                    window.scrollTo({
-                      top: 4000,
-                      behavior: 'smooth',
-                    })
-                  }
-                }>Contact</a>
-              </p>
+              
+              <div>
+                <a onClick={ () => handleScroll(1200) }> About Me </a>
+              </div>
+              
+              <div>
+                <a onClick={ () => handleScroll(2200) }> Skills </a>
+              </div>
+
+              <div>
+                <a onClick={ () => handleScroll(3750) }> Personal Portfolio </a>     
+              </div>
+              
+              <div>
+                <a onClick={ () => handleScroll(5000) }> Contact </a>
+              </div>
+
             </div>
           </div>
       </header>
