@@ -11,7 +11,7 @@ const Footer = () => {
 
       <footer className = {Styles.fondo} >
 
-        <h1 className = {Styles.contacto}>Contact Me</h1>
+        <h1 className = {Styles.contacto}>CONTACT ME</h1>
         <p className = {Styles.texto}>Here is my personal info: </p>
 
         <div className = {Styles.contenido}>
@@ -19,7 +19,7 @@ const Footer = () => {
           
 
           <div className = {Styles.datos}>
-            <p> <FaWhatsapp /> +34 671 84 52 31</p>
+            <p> <FaWhatsapp /> (+34) 671 84 52 31</p>
             <p> <FiMail /> adriandotel@gmail.com</p>
           </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
             
               
             <p>
-              <a href = {"https://www.linkedin.com/in/adrian-dotel-pujols-192200208/"} target = "_blank" rel="noreferrer"> Linkedin <FaLinkedin/> </a>
+              <a href = {"https://www.linkedin.com/in/adrian-dotel-pujols-192200208/"} target = "_blank" rel="noreferrer"> LinkedIn <FaLinkedin/> </a>
             </p>
         
             <p>        

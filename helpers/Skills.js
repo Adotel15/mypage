@@ -14,7 +14,7 @@ const Skills =
         nombre: "CSS3",
         texto: "Responsive Web Desgin",
         texto2: "Flexbox & CSS Grid",
-        texto3: "TailwindCSS, SASS, Styled Components",
+        texto3: "TailwindCSS, Styled Components",
         logo: "css.png",
         color: "#336BFF",
         id: "1"

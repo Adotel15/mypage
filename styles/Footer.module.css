@@ -24,7 +24,7 @@
 .contacto {
 
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 12rem;
     font-size: 2.5rem;
 
     margin-top: 14rem;
@@ -57,5 +57,9 @@
 @media (max-width: 850px) {
     .contenido{
         width: 100%;
+    }
+
+    .contacto {
+        margin-left: 9rem;
     }
 }

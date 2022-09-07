@@ -12,6 +12,8 @@ export default function Home() {
 
     return (
 
+    <>
+
       <div className = {Styles.pagina}>
 
         <div className = {Styles.video}>
@@ -37,6 +39,7 @@ export default function Home() {
 
         <Footer />
       </div>
+    </>
     
     )
 }
