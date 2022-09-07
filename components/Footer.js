@@ -1,5 +1,5 @@
 
-import React, { Fragment } from 'react'
+import React from 'react'
 import Styles from '../styles/Footer.module.css'
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
@@ -9,12 +9,12 @@ const Footer = () => {
     return (
 
 
-      <div className = {Styles.fondo} >
+      <footer className = {Styles.fondo} >
 
-        <h1 className = {Styles.contacto}>Want to Contact Me?</h1>
+        <h1 className = {Styles.contacto}>Contact Me</h1>
         <p className = {Styles.texto}>Here is my personal info: </p>
 
-        <footer className = {Styles.contenido}>
+        <div className = {Styles.contenido}>
 
           
 
@@ -40,13 +40,12 @@ const Footer = () => {
           
           <div>
             <p className = {Styles.texto}>My CV</p>
-
             <a>Link</a>
           </div>
           
 
-        </footer>
-      </div>
+        </div>
+      </footer>
     )
 }
 

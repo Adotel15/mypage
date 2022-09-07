@@ -69,3 +69,16 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 450px) {
+
+    .texto {
+        padding-top: 4rem;
+        font-size: 1.8rem;
+    }
+
+    .parrafo {
+        font-size: 0.9rem;
+        padding-right: 2rem;
+    }
+}

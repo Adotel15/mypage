@@ -76,14 +76,12 @@
 
     }
 
-    .navegacion a {
-        font-size: 0.7rem;
-    }
 }
 
 @media (max-width: 450px) {
 
     .navegacion {
-        gap: 0.4rem;
+        font-size: 0.8rem;
+        padding-right: 1rem;
     }
 }

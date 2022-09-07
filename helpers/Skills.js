@@ -14,16 +14,16 @@ const Skills =
         nombre: "CSS3",
         texto: "Responsive Web Desgin",
         texto2: "Flexbox & CSS Grid",
-        texto3: "SASS/LESS",
+        texto3: "TailwindCSS, SASS, Styled Components",
         logo: "css.png",
         color: "#336BFF",
         id: "1"
     },
     {
         nombre: "JAVASCRIPT",
-        texto: "DOM Manipulation",
+        texto: "Destructuring",
         texto2: "Fetch API & JSON",
-        texto3: "Async / Await, Promises, Destructuring",
+        texto3: "Async / Await, Promises",
         logo: "javascript.png",
         color: "#FFFF33",
         id: "2"
@@ -31,8 +31,8 @@ const Skills =
     {
         nombre: "REACT.JS",
         texto: "Native Hooks & Custom Hooks",
-        texto2: "Context",
-        texto3: "Next.JS & Vite",
+        texto2: "State and Context Manipulation",
+        texto3: "Reusable Components",
         logo: "react.png",
         color: "#16DCE2",
         id: "3"
@@ -48,9 +48,9 @@ const Skills =
     },
     {
         nombre: "SOLIDITY",
-        texto: "Smart Contracts",
+        texto: "DEFI Smart Contracts",
         texto2: "Factories",
-        texto3: " ERC20 - ERC721 Standars",
+        texto3: "Following ERC20 - ERC721 Standars",
         logo: "solidity.png",
         color: "#8B97E1",
         id: "5"
@@ -66,7 +66,7 @@ const Skills =
     },
     {
         nombre: "MONGODB",
-        texto: "Atlas Database",
+        texto: "Mongoose",
         texto2: "CRUD",
         texto3: " Schemas Structure",
         logo: "mongodb.png",
