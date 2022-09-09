@@ -1,7 +1,21 @@
 
 import Styles from '../styles/Header.module.css'
 
-const Header = () => {
+const Header = ({ refAboutMe, refSkills, refPortfolio }) => {
+
+
+  const scrollAboutMe = () => {
+    refAboutMe.current.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const scrollSkills = () => {
+    refSkills.current.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const scrollPortfolio = () => {
+    refPortfolio.current.scrollIntoView({behavior: 'smooth'});
+  }
+  
 
   const handleScroll = movimiento => {
     window.scrollTo ({ top: movimiento, behavior : 'smooth'})
@@ -21,15 +35,15 @@ const Header = () => {
             <div className = {Styles.navegacion}>
               
               <div>
-                <a onClick={ () => handleScroll(1200) }> About Me </a>
+                <a onClick={ scrollAboutMe }> About Me </a>
               </div>
               
               <div>
-                <a onClick={ () => handleScroll(2200) }> Skills </a>
+                <a onClick={ scrollSkills }> Skills </a>
               </div>
 
               <div>
-                <a onClick={ () => handleScroll(3750) }> Personal Portfolio </a>     
+                <a onClick={ scrollPortfolio }> Personal Portfolio </a>     
               </div>
               
               <div>

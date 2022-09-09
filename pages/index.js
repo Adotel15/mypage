@@ -8,7 +8,15 @@ import Footer from '../components/Footer.js'
 
 import Styles from '../styles/Home.module.css'
 
+import { useRef } from 'react'
+
+
 export default function Home() {
+
+    const refAboutMe = useRef(null);
+    const refSkills = useRef(null);
+    const refPortfolio = useRef(null);
+
 
     return (
 
@@ -22,17 +30,25 @@ export default function Home() {
           </video>
         </div>
         
-        <Header />
+        <Header
+            refAboutMe = { refAboutMe }
+            refSkills = { refSkills }
+            refPortfolio = { refPortfolio }
+        />
 
         <div className = {Styles.contenedor}>
 
           <Frase />
           
-          <AboutMe />
+          <div ref = { refAboutMe } >
+            <AboutMe />
+          </div>
 
-          <CV />
+          <div ref = { refSkills }>
+            <CV />
+          </div>
 
-          <h1 className = {Styles.titulo}>PERSONAL PORTFOLIO</h1>
+          <h1 ref = { refPortfolio } className = {Styles.titulo}>PERSONAL PORTFOLIO</h1>
           <Proyectos />
 
         </div>
