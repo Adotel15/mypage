@@ -67,6 +67,7 @@
 @media (max-width: 500px) {
 
     .contacto {
-        margin-left: 5rem;
+        text-align: center;
+        margin: 14rem 0 0;
     }
 }
