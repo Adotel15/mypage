@@ -47,7 +47,7 @@ const Header = ({ refAboutMe, refSkills, refPortfolio }) => {
               </div>
               
               <div>
-                <a onClick={ () => handleScroll(5000) }> Contact </a>
+                <a onClick={ () => handleScroll(10000) }> Contact </a>
               </div>
 
             </div>
