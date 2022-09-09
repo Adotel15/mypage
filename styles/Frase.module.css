@@ -65,10 +65,25 @@
     
 }
 
+@media (max-width: 750px) {
+
+    .contenedor {
+        margin: 6rem 0;
+
+    }
+
+    .texto {
+        font-size: 2rem;
+    }
+    
+}
+
 @media (max-width: 600px) {
+
 
     .texto {
         padding-top: 4rem;
+        font-size: 2rem;
     }
 
     .parrafo {
@@ -79,12 +94,14 @@
 @media (max-width: 540px) {
 
     .contenedor{
-        overflow: visible;
+        margin: 0;
+        padding: 0;
     }
 
     .texto {
-        padding: 1rem;
-        font-size: 1.8rem;
+        margin: 4rem 2rem;
+        padding: 0;
+        font-size: 1.6rem;
     }
 
     .parrafo {

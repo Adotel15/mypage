@@ -112,6 +112,18 @@
 
 }
 
+@media (min-width: 600px) and (max-width: 750px) {
+
+    .navegacion {
+        gap: 1rem;
+    }
+
+    .navegacion a {
+        font-size: 1rem;
+    }
+
+}
+
 @media (max-width: 540px) {
 
     .cabeza {
