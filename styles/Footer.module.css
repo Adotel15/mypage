@@ -63,3 +63,10 @@
         margin-left: 9rem;
     }
 }
+
+@media (max-width: 500px) {
+
+    .contacto {
+        margin-left: 5rem;
+    }
+}

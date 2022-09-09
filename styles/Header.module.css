@@ -126,6 +126,10 @@
 
 @media (max-width: 540px) {
 
+    .contenido {
+        margin: 2rem 0 10rem;
+    }
+
     .cabeza {
         display: block;
         text-align: center;
@@ -141,6 +145,6 @@
     .navegacion {
         margin-right: 0;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
