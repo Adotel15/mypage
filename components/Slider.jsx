@@ -1,8 +1,8 @@
 
 import React from 'react'
-import "./Slider.css"
 import { FiGithub } from 'react-icons/fi'
 import { FaExternalLinkAlt } from 'react-icons/fa'
+
 
 const Slider = ({ pagina, isNext }) => {
 

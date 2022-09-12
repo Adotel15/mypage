@@ -38,3 +38,137 @@ a {
   box-sizing: border-box;
 }
 
+
+.container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 90vh;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  border: 5px solid gold;
+
+  background-color: black;
+  border-radius: 50px;
+}
+
+
+.slider-box {
+
+  width: 80%;
+  height: 75vh;
+  background-color: #161c36;
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.active {
+  border: 5px solid gold;
+  width: 95%;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
+  text-align: center !important;
+}
+
+@media (max-width: 1000px) {
+
+  .slider-box {
+      height: 30vh;
+
+      font-size: smaller;
+  }
+
+  .container {
+      height: 40vh;
+  }
+}
+
+
+.contenedor {
+    
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  color: white;
+
+  position: relative;
+  
+
+  padding: 0 1rem;
+
+  height: 100%;
+}
+
+.contenedorFoto {
+
+  position: absolute;
+  
+}
+
+.next {
+  width: 95%;
+}
+
+.notNext {
+  width: 80%;
+}
+
+.foto {
+  
+  opacity: 0.5;
+  border-radius: 50px;
+  filter: blur(2px);
+
+}
+
+.contenedor h1 {
+  color: gold;
+  position: relative;
+}
+
+.tech {
+  color: gold;
+}
+
+.negrita {
+  font-weight: 700;
+}
+
+.enlaces {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.enlaces a {
+
+  color: white;
+  text-decoration: none;
+}
+
+.enlaces a:hover {
+  color: gold;
+}
+
+@media (max-width: 900px) {
+
+  .enlaces {
+      margin: 1rem 2rem;
+  }
+}
+
