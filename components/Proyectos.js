@@ -1,32 +1,68 @@
+// Import Swiper React components
+import { Navigation, Pagination, Keyboard, Autoplay } from 'swiper';
 
-import { PAGES } from "../helpers/Paginas"
-import Styles from "../styles/Proyectos.module.css"
-import HorizontalScroll from 'react-scroll-horizontal'
-import Tarjeta from "../components/Tarjeta.js"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Slider from './Slider';
 
-const Proyectos = () => {
+import { PAGES } from '../helpers/Paginas.js';
+
+import { useEffect, useState } from 'react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
-  return (
-    <div className = { Styles.scroll }>
-      <div className = { Styles.slider }>
-        <HorizontalScroll
-          reverseScroll = { true }
-          config        = {{ stiffness: 200, damping: 100}}
+// Import own styles
+import './SwiperC.css';
+
+export const SwiperC = () => {
+
+      const [ width , setWidth ] = useState()
+
+      useEffect(() => {
+       
+        function handleResize() {
+          setWidth(window.innerWidth)
+        }
+        
+        window.addEventListener("resize", handleResize);
+     
+        handleResize();
+       
+        return () => window.removeEventListener("resize", handleResize);
+
+      }, []);
+    
+
+      
+
+      return (
+        <Swiper
+          modules = {[ Navigation, Pagination, Keyboard, Autoplay ]}
+          slidesPerView = {width > 700 ? 3 : 1 }
+          navigation
+          pagination = {{ clickable: true }}
+          keyboard = {{ enabled: true }}
+          autoplay={{ delay: 6000, disableOnInteraction: false }}
         >
-          {
-            PAGES.map ( page => (
+        {PAGES.map(( page ) => (
 
-                <Tarjeta 
-                  key = { page.id }
-                  page = { page }
-                />
-            ))
-          }
-        </HorizontalScroll>
-      </div>
-    </div>
-  )
-}
+            <SwiperSlide key = { page.id }>
+                {
+                ({ isNext }) => ( 
+                  <div className = {isNext ? 'active slider-box' : 'slider-box' }>
+                    <Slider 
+                      pagina = { page }
+                      isNext = { isNext }
+                    />
+                  </div> )
+                }
+            </SwiperSlide>
 
-export default Proyectos
+          )
+        )}
+        </Swiper>
+      );
+};

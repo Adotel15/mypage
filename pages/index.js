@@ -48,7 +48,7 @@ export default function Home() {
             <CV />
           </div>
 
-          <h1 ref = { refPortfolio } className = {Styles.titulo}>PERSONAL PORTFOLIO</h1>
+          <h1 ref = { refPortfolio } className = {`container ${Styles.titulo}`}>PERSONAL PORTFOLIO</h1>
           <Proyectos />
 
         </div>
