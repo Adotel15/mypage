@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Styles from '../styles/Footer.module.css'
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaWhatsapp, FaFilePdf} from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 
 const Footer = () => {
@@ -40,7 +40,7 @@ const Footer = () => {
           
           <div>
             <p className = {Styles.texto}>My CV</p>
-            <a>Link</a>
+            <a href = './CV EN.pdf' target = "_blank" rel = "noreferrer"> <FaFilePdf /> </a>
           </div>
           
 

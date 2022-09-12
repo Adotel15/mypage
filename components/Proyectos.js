@@ -2,7 +2,7 @@
 import { Navigation, Pagination, Keyboard, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Slider from './Slider';
+import Slider from './Slider.js';
 
 import { PAGES } from '../helpers/Paginas.js';
 
