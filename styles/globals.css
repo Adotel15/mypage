@@ -59,6 +59,7 @@ a {
 
   border: 2px solid white;
   border-radius: 50px;
+  
 }
 
 .active {
@@ -110,7 +111,7 @@ a {
 }
 
 .next {
-  width: 95%;
+  width: 93%;
 }
 
 .notNext {
