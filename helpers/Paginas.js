@@ -2,10 +2,10 @@
 export const PAGES = [
     {
         nombre: "Guitar-La",
-        url: "https://guitarla-three.vercel.app/",
+        url: "/",
         codigo: "https://github.com/Adotel15/GuitarLa_APP",
         id: "1",
-        texto: "FullStack project of an ecommerce of guitars using StaticProps, ServerSideProps, and dinamic routing. Deployed in Heroku and Vercel.",
+        texto: "FullStack project of an ecommerce of guitars using StaticProps, ServerSideProps, and dinamic routing. Deployed in Heroku and Vercel. Link not working. But you can check the code!",
         tech: "Next.js, MongoDB, Strapi, Heroku, Vercel, Cloudinary",
         foto: "guitar.png"
         
@@ -13,10 +13,10 @@ export const PAGES = [
     ,
     {
         nombre: "Fresh Coffe",
-        url: "https://quiscoapp-production-e214.up.railway.app/",
+        url: "/",
         codigo: "https://github.com/Adotel15/QuiscoApp/tree/main",
         id: "6",
-        texto: "FullStack project of a fast food eating spot, with Next.js, MySql in the backend, Context, and Prisma. Deployed in Railway.",
+        texto: "FullStack project of a fast food eating spot, with Next.js, MySql in the backend, Context, and Prisma. Deployed in Railway.  Link not working. But you can check the code!",
         tech: "Next.js, MySql, Prisma, Context",
         foto: "quisco.png"
     },

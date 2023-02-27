@@ -19,6 +19,7 @@ const Slider = ({ pagina, isNext }) => {
                 
                 <h1 className = 'negrita'> { nombre } </h1>
 
+
                 <div>
                     <p> { texto } </p>
                     <p className = 'negrita tech'> { tech } </p>
